@@ -1,7 +1,7 @@
 import http from 'k6/http';
 import {sleep} from 'k6';
 
-const baseUrl = 'https://shipments-frontend-api.happysea-573aaf45.eastus.azurecontainerapps.io';
+const baseUrl = 'https://shipments-frontend-api.lemonmoss-09abef4b.southeastasia.azurecontainerapps.io';
 
   export let options = {
         vus: 100,
